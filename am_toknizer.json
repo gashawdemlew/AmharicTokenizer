@@ -1,0 +1,10 @@
+{
+    "model_type": "sentencepiece",
+    "vocab_file": "amharic_tokenizer.model",
+    "special_tokens_map": {
+      "[PAD]": 0,
+      "[UNK]": 1,
+      "[CLS]": 2,
+      "[SEP]": 3
+    }
+  }
