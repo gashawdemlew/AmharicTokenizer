@@ -44,6 +44,22 @@ spm_train --input=your_data.txt --model_prefix=amharic_model --vocab_size=8000 -
 ```
 Replace `your_data.txt` with your own Amharic text data file.
 
+## Example
+
+### Test Amharic Text
+
+በኢትዮጵያ ዘመን አቆጣጠር የአመቱ የመጀመሪያው እለት ነው በመሆኑም ቀኑ የኢትዮጵያ አዲስ አመት በአል ወይም እንቁጣጣሽ በመባል ይታወቃል
+
+### Tokenized Output
+
+Tokens:
+
+['▁በኢትዮጵያ', '▁ዘመን', '▁አቆጣጠር', '▁የአመቱ', '▁የመጀመሪያው', '▁እለት', '▁ነው', '▁በመሆኑም', '▁ቀኑ', '▁የኢትዮጵያ', '▁አዲስ', '▁አመት', '▁በአል', '▁ወይም', '▁እንቁጣጣሽ', '▁በመባል', '▁ይታወቃል']
+
+Tokens IDs:
+
+[146, 176, 580, 1428, 1051, 194, 10, 1249, 222, 80, 117, 55, 505, 128, 19790, 1683, 1016]
+
 ## Potential Applications
 
 The Amharic language tokenizer using SentencePiece has several potential applications in real-world scenarios, including:
