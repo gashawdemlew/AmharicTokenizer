@@ -1,14 +1,10 @@
 import streamlit as st
 import sentencepiece as spm
-from transformers import AutoTokenizer
 import pandas as pd
-
-# Load the tokenizer from Hugging Face Hub
-# tokenizer = AutoTokenizer.from_pretrained("gashudemman/amharic-sentencepiece-tokenizer")
 
 # Load amharic sentencepiece tokenizer
 sp = spm.SentencePieceProcessor()
-sp.load('amharic_toknizer_v2.model')
+sp.load('model/amharic_toknizer_v2.model')
 
 st.title("Amharic Text Tokenizer")
 
