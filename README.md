@@ -1,5 +1,3 @@
-Here is the updated README file:
-
 # Amharic Language Tokenizer using SentencePiece
 
 ## Introduction
